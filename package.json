@@ -7,7 +7,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "webpack-dev-server",
-    "build": "SET NODE_ENV='production' && webpack"
+    "build": "SET: NODE_ENV='production' && webpack"
   },
   "babel": {
     "presets": [
