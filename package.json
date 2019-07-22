@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "webpack-dev-server",
     "build": "SET NODE_ENV='production' && webpack"
   },
@@ -27,7 +29,7 @@
   "bugs": {
     "url": "https://github.com/JoelGaeta/github-war-game/issues"
   },
-  "homepage": "https://github.com/JoelGaeta/github-war-game#readme",
+  "homepage": "https://JoelGaeta.github.io/github-war-game",
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
