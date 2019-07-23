@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Hover from "./hover";
+import Hover from "./Hover";
 const styles = {
   container: {
     position: "relative",
