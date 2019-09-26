@@ -5,4 +5,10 @@ The application also displays popular profiles to the user based on what program
 
 In addition to this another main function of this application is to allow the user to type in any two usernames on github and have them "battle" each other. The application declares a winner based off various conditions such as number of followers and how many people they are following.
 
-This application was made using React.js
+# Technologies Used
+
+ React.js
+ 
+ # Deployed Link
+ 
+ 
